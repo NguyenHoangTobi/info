@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+    <title>Info HPhương</title>
+    <style>
+        body {
+            background: #6aff8d;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "poppins";
+        }
+
+        .card {
+            width: 300px;
+            height: 400px;
+            background: #242628;
+            border-radius: 10px;
+            text-align: center;
+            color: whitesmoke;
+            overflow: hidden;
+            position: relative;
+        }
+
+        img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+            object-position: middle;
+        }
+
+        .card_img {
+            width: 150px;
+            height: 150px;
+            border: 4px solid yellow;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto;
+            transform: translatey(25px);
+            transition: 0.5s;
+        }
+
+        .card__social a {
+            color: whitesmoke;
+            margin: 10px;
+            font-size: 30px;
+        }
+
+        .card__social {
+            margin: 80px;
+        }
+
+        .card__social a:hover {
+            color: violet;
+        }
+
+        .card_img:hover {
+            width: 100%;
+            height: 100%;
+            border-radius: unset;
+            border: none;
+            transform: unset;
+        }
+
+        h2 {
+            padding-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+
+        <div class="card_img"><img src="HPhuong.jpg" alt=""></div>
+
+        <h2>Bé Phươnggg</h2>
+
+        <div class="card__social">
+            <a href="">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/bnhphuong.bacsi.2005">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <!-- <a href=""></a>
+            <a href=""></a> -->
+
+        </div>
+    </div>
+</body>
+
+</html>
